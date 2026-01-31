@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SocialNet - Login</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin:0;
+  font-family: system-ui, Arial;
+  min-height:100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.card {
+  width:100%;
+  max-width:380px;
+  background:white;
+  padding:32px;
+  border-radius:16px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align:center;
+  margin-bottom:8px;
+}
+
+.subtitle {
+  text-align:center;
+  color:#777;
+  margin-bottom:24px;
+}
+
+input {
+  width:100%;
+  padding:12px;
+  margin-bottom:14px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  font-size:16px;
+}
+
+button {
+  width:100%;
+  padding:12px;
+  background:#667eea;
+  border:none;
+  color:white;
+  font-size:16px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+button:hover { opacity:0.9; }
+
+.link {
+  text-align:center;
+  margin-top:16px;
+}
+
+.link a {
+  color:#667eea;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.fake-notif {
+  text-align:center;
+  font-size:13px;
+  color:#999;
+  margin-bottom:16px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h1>SocialNet</h1>
+  <div class="subtitle">Connecte-toi pour continuer</div>
+
+  <div class="fake-notif">
+    🔔 3 nouvelles mentions t’attendent
+  </div>
+
+  <form action="landing.html">
+    <input type="text" placeholder="Email ou pseudo">
+    <input type="password" placeholder="Mot de passe">
+    <button>Se connecter</button>
+  </form>
+
+  <div class="link">
+    <a href="register.html">Créer un compte</a>
+  </div>
+</div>
+
+</body>
+</html>
